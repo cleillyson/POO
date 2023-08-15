@@ -1,2 +1,2 @@
 # POO
- Pogramação estru
+ Pogramação estruturada
