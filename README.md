@@ -1,2 +1,2 @@
 # POO
- Pogramação estruturada
+Programação orientada a objeto
