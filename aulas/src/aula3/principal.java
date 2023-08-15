@@ -8,9 +8,5 @@ public class principal {
         meuCarro.motor = new Motor();
         meuCarro.motor.qntCombustivel = 100;
         meuCarro.dono = new Dono();
-
-
-
-
     }
 }
