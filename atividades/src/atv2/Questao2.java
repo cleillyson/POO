@@ -12,7 +12,6 @@ public class Questao2 {
         //func1.dataEntrada ="01/02/2020";
         System.out.println("Nome: " + func1.nome);
         System.out.println("Salario: R$" + func1.salario);
-        func1.cauculaGanhoAnual();
         System.out.println("Salario anual: R$" + func1.cauculaGanhoAnual());
         func1.recebeAumento(300);
         System.out.println("Salario: R$" + func1.salario);
