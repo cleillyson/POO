@@ -1,6 +1,6 @@
 package atv2;
 
-public class Questao6Data {
+public class Data {
     int dia = 0;
     int mes = 0;
     int ano = 0;

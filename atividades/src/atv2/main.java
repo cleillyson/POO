@@ -1,8 +1,8 @@
 package atv2;
 
-public class Questao8 {
+public class main {
     public static void main(String[] args) {
-        Questao1 func1 = new Questao1();
+        Funcionario func1 = new Funcionario();
         func1.salario = 1200;
         func1.departamento = "RH";
         func1.rg = "1234567";
