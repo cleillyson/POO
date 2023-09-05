@@ -1,14 +1,18 @@
 package atv5;
 
 public class Banco {
-    private static int totalDeContas = 0;
+    private int totalDeContas = 0;
     private Conta[] contas;
+    public Banco(int qntContas){
+        this.contas = new Conta[qntContas];
+    }
     public void adiciona(Conta c){
-        totalDeContas++;
+        this.contas[this.totalDeContas] = c;
+        this.totalDeContas++;
     }
 
     public Conta pegaConta(int x){
-        return new Conta();
+        return this.contas[x];
     }
 
     public int pegaTotalDeContas() {
