@@ -6,5 +6,5 @@ Repositorio criado para colocar atividades de Programação Orientada a Objetos
 - [x] Atividade 2 (9/9)
 - [x] Atividade 3 (6/6)
 - [x] Atividade 4 (6/6)
-- [ ] Atividade 5 (10/10)
+- [x] Atividade 5 (10/10)
 - [ ] Atividade 5.1 (0/2)
