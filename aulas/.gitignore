@@ -2,6 +2,10 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+/**/teste.java
+/src/aula7/Animal.java
+
+
 
 ### Eclipse ###
 .apt_generated
