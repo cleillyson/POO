@@ -1,4 +1,4 @@
-package atv6;
+package atv7.contaInterface;
 
 public class AtualizadorDeContas {
     private double saldoTotal = 0;

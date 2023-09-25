@@ -1,13 +1,13 @@
-package atv6;
+package atv7.contaInterface;
 
-abstract class Conta {
-    protected double saldo;
+public class ContaCorrente implements Conta {
+    double saldo;
 
     public double getSaldo() {
-        return this.saldo;
+        return saldo;
     }
 
-    public void deposita(double valor){
+    public void deposita(double valor) {
         if (valor > 0) {
             this.saldo += valor;
         } else {
@@ -15,7 +15,7 @@ abstract class Conta {
         }
     }
 
-    public void saca(double valor){
+    public void saca(double valor) {
         if (this.saldo > valor) {
             this.saldo -= valor;
         } else {
@@ -23,5 +23,11 @@ abstract class Conta {
         }
     }
 
-    abstract void atualiza(double taxa);
+    public void atualiza(double taxa) {
+        if(taxa >= 0){
+            this.saldo += taxa * 2 * this.saldo;
+        }
+    }
+
 }
+
