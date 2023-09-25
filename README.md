@@ -9,4 +9,4 @@ Repositorio criado para colocar atividades de Programação Orientada a Objetos
 - [x] [Atividade 5](atividades/src/atv5) (10/10)
 - [x] [Atividade 5.1](atividades/src/atv5_1) (2/2)
 - [x] [Atividade 5](atividades/src/atv6) (4/4)
-- [ ] [Atividade 5.1](atividades/src/atv6_1) (0/1)
+- [x] [Atividade 5.1](atividades/src/atv6_1) (1/1)
